@@ -69,7 +69,7 @@ __Aluno__: Marcos de Souza Trazzini (RM559926)
         * Cardinalidade: Mínima = 1 (Obrigatório), Máxima = 1 (Monovalorado)
     * `NOME_SENSOR` (Nome do Sensor):
         * Tipo: Simples
-        * Formato: NUMBER
+        * Formato: VARCHAR(50)
         * Cardinalidade: Cardinalidade: Mínima = 1 (Obrigatório), Máxima = 1 (Monovalorado)
 * __Relacionamentos:__
     * Muitos para um com a tabela `LEITURAS_SENSORES` (Um sensor pode registrar várias leituras).
